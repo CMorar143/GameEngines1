@@ -6,7 +6,7 @@ public class TankController : MonoBehaviour
 {
     private TankController Tank;
     public float speed = 5f;
-    public float rotspeed = 45f;
+    public float rotspeed = 65f;
 
     // Start is called before the first frame update
     void Start()
