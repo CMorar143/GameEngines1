@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Lab4.unity
+- path: C:/Users/Cian Morar/Documents/College Work/Year4/Semester1/Games_Engines_1/GE1-2019-2020/GE1Examples2019/Assets/Scenes/QuaternionsExample.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
