@@ -63,7 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\SpineAnimator.cs" />
     <Compile Include="Assets\Scripts\TankController.cs" />
+    <Compile Include="Assets\Scripts\TentacleGenerator.cs" />
     <Compile Include="Assets\Scripts\TurretController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Cian Morar/Documents/College Work/Year4/Semester1/Games_Engines_1/Labs/Lab5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
