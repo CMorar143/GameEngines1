@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class Wall : MonoBehaviour
 {
-    public int width = 20;
+    public int width = 10;
     public int height = 10;
 
     // Start is called before the first frame update
     void Start()
     {
-        int halfWidth = width / 2;
-
         for (int i = 0; i < height; i++)
         {
             for (int j = -halfWidth; j < halfWidth; j++)
