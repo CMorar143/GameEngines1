@@ -12,7 +12,7 @@ public class Wall : MonoBehaviour
     {
         for (int i = 0; i < height; i++)
         {
-            for (int j = -halfWidth; j < halfWidth; j++)
+            for (int j = -width; j < width; j++)
             {
             	// Get position
                 Vector3 pos = transform.TransformPoint(new Vector3(j, 0.5f + i, 0));
