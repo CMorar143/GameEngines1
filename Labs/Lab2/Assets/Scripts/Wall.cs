@@ -6,7 +6,6 @@ public class Wall : MonoBehaviour
 {
     public int width = 20;
     public int height = 10;
-    //public int height;
 
     // Start is called before the first frame update
     void Start()
