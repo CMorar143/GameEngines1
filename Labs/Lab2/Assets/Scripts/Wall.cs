@@ -13,11 +13,11 @@ public class Wall : MonoBehaviour
     {
         int halfWidth = width / 2;
 
-        for (int j = 0; j < height; j++)
+        for (int i = 0; i < height; i++)
         {
-            for (int i = -halfWidth; i < halfWidth; i++)
+            for (int j = -halfWidth; j < halfWidth; j++)
             {
-                Vector3 pos = transform.TransformPoint(new Vector3(i, 0.5f + j, 0));
+                Vector3 pos = transform.TransformPoint(new Vector3(j, 0.5f + i, 0));
 
                 GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 cube.transform.position = pos;
